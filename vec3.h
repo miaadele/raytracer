@@ -6,6 +6,9 @@ Definition of vector utility functions
 #ifndef VEC3_H
 #define VEC3_H
 
+#include <cmath>
+#include <iostream>
+
 /* 
 The vector is represented as an array of 3 doubles:
 e[0], e[1], and e[2] are the x, y, and z components, respectively
